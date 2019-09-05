@@ -1,3 +1,3 @@
 # Api para Comercio Electronico - Extreme Shop
 
-Isai
+Isai: proyectosnode@gmail.com
