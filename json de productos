@@ -1,0 +1,44 @@
+{
+"name": "Botas",
+"price": "1500",
+"image": "/static/images/botas.jpg",
+"tags": ["Botas", "motocicleta"]
+}
+
+{
+"name": "Guantes",
+"price": "500",
+"image": "/static/images/guantes.jpg",
+"tags": ["guantes", "manos"]
+}
+
+{
+"name": "Laptop Gamer",
+"price": "100000",
+"image": "/static/images/laptop.jpg",
+"tags": ["gamer", "laptop"]
+}
+
+{
+"name": "Casco Azul",
+"price": "1000",
+"image": "/static/images/azul.jpg",
+"tags": ["azul", "casco"]
+}
+
+{
+"name": "Mocasines",
+"price": "800",
+"image":"/static/images/rojos.jpg",
+"tags": ["zapatos", "rojos", "mocasines"]
+}
+
+{
+"name": "Bicicleta",
+"price": "5000",
+"image": "static/images/negro.jpg",
+"tags": ["Bicicleta", "bike"]
+}
+
+var jsonData = JSON.parse(responseBody);
+postman.setEnvironmentVariable("access_token", jsonData.acces_token);
