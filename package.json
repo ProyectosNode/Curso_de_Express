@@ -11,7 +11,9 @@
     "dev:debug": "DEBUG=express:*,app:* npm run dev",
     "debug": "DEBUG=express:*,app:* npm run start",
     "test": "mocha --exit",
-    "lint": "standard"
+    "lint": "standard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -48,6 +50,8 @@
     "passport": "^0.4.0",
     "passport-http": "^0.3.0",
     "passport-jwt": "^4.0.0",
-    "pug": "^2.0.4"
-  }
+    "pug": "^2.0.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
